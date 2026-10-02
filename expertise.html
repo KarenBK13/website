@@ -32,7 +32,7 @@
 
 
     <title>Karen Benhamou-Koskas | Cabinet d'Avocats</title> 
-    <link href="./style/main.min.css" rel="stylesheet">
+    <link href="./style/main.min.css?v=3" rel="stylesheet">
 </head>
 
 <body>
@@ -50,6 +50,7 @@
             <span class="mdc-menu-btn-line"></span>
         </div>
     </header>
+    <div id="mdc-skyline" aria-hidden="true"></div>
     <main id="swup"  class="mdc-transition-fade-out">
         <nav id="mdc-sidenav">
             <a id="li-side-1" href="./presentation.html" title="">Présentation</a>
@@ -57,7 +58,7 @@
             <a id="li-side-3" href="./contact.html" title="">Contact</a>
         </nav>
         <div id="mdc-container" class="mdc-expertise-container">
-            <h1>Karen Benhamou-Koskas vous accompagne sur ces domaines d'expertise:</h1>
+            <h1><span class="nowrap">Karen Benhamou-Koskas</span> vous accompagne sur ces domaines d'expertise:</h1>
             <div class="mdc-expertise-buttons">
                 <button id="mdc-expertise-button-commercial" class="mdc-expertise-button" type="button" onclick="handleExpertiseClick('commercial')">Droit Commercial</button>
                 <button id="mdc-expertise-button-family" class="mdc-expertise-button" type="button" onclick="handleExpertiseClick('family')">Droit de la Famille</button>
@@ -66,7 +67,7 @@
                 <button id="mdc-expertise-button-mediation" class="mdc-expertise-button" type="button" onclick="handleExpertiseClick('mediation')">Médiation</button>
             </div>
         </div>
-        <script src="./js/expertise.min.js" ></script>
+        <script src="./js/expertise.min.js?v=2" ></script>
     </main>
 
     <!--
@@ -74,9 +75,10 @@
         <span>Tout droit réservé | © Designed by MDC</span>
     </footer>
     --> 
+    <script defer src="./js/skyline.min.js?v=3" data-swup-ignore-script></script>
     <script defer src="./js/swup.min.js" data-swup-ignore-script></script>
     <script defer src="./js/SwupScriptsPlugin.min.js" data-swup-ignore-script></script> 
-    <script defer src="./js/main.min.js" data-swup-ignore-script></script>
+    <script defer src="./js/main.min.js?v=2" data-swup-ignore-script></script>
 
 </body>
 
